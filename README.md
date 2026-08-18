@@ -5,7 +5,7 @@ Short description of what this project does.
 ## Structure
 
 ```
-data/       # source + derived data (large files gitignored, DataLad-managed)
+data/       # source + derived data (large files gitignored)
 code/       # reusable code / pipeline modules
 analyses/   # notebooks + analysis scripts
 docs/       # notes, papers, data dictionaries
