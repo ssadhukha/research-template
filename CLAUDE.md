@@ -10,16 +10,15 @@ Context for Claude Code when working in this repo.
 
 - `code/` — reusable modules; import from here, don't copy between notebooks.
 - `analyses/` — notebooks + analysis scripts that consume `code/`.
-- `data/` — large data is DataLad-managed and gitignored; don't try to commit it.
+- `data/` — large data is gitignored; don't try to commit it.
 - `figs/` — generated figures.
 - `docs/` — notes, papers, data dictionaries.
 
 ## Environment
 
 - `conda env create -f env.yml && conda activate project-name`
-- Key deps: himalaya, nibabel, neuromaps, surfplot, numpy, scipy.
+- Key deps: <list your project's key dependencies here>.
 
 ## Conventions
 
 - Raw data is immutable — write derived data elsewhere, never overwrite it.
-- Long jobs go through SLURM on Discovery, not run inline.
